@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+    crossorigin="anonymous"> --
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="open-menu">
+            <a href="#">
+                <img src="https://image.flaticon.com/icons/png/512/56/56763.png" height="80px" width="80px" onclick="OpenSideMenu()">
+            </a>
+
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="#"></a>Home 1</li>
+            <li><a href="#"></a>Home 2</li>
+            <li><a href="#"></a>Home 3</li>
+            <li><a href="#"></a>Home 4</li>
+        </ul>
+    </nav>
+
+    <div id="Side-Menu" class="Side-Nav">
+        <a href="#" class="Button-close" onclick="CloseSideMenu()">&times;</a>
+        <a href="#">Home 1</a>
+        <a href="#">Home 2</a>
+        <a href="#">Home 3</a>
+    </div>
+
+    <div id="Main">
+        <h1>Terms and Conditions</h1>
+        <h3>Last updated May 06, 2021
+
+            Thank you for choosing to be part of our community at Vivedy ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at Vivedy@gmail.com.
+            
+            When you visit our website http://www.VivedyAzurewebsite.nz.com (the "Website"), and more generally, use any of our services (the "Services", which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
+            
+            This privacy notice applies to all information collected through our Services (which, as described above, includes our Website), as well as, any related services, sales, marketing or events.
+            
+            Please read this privacy notice carefully as it will help you understand what we do with the information that we collect.</h3>
+            <h3>
+            <br>
+            TABLE OF CONTENTS
+            <br>
+            WHAT INFORMATION DO WE COLLECT?
+            <br>
+            HOW DO WE USE YOUR INFORMATION?
+            <br>
+            WILL YOUR INFORMATION BE SHARED WITH ANYONE?
+            <br>
+            HOW LONG DO WE KEEP YOUR INFORMATION?
+            <br>
+            HOW DO WE KEEP YOUR INFORMATION SAFE?
+            <br>
+            WHAT ARE YOUR PRIVACY RIGHTS?
+            <br>
+            CONTROLS FOR DO-NOT-TRACK FEATURES
+            <br>
+            DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+            <br>
+            DO WE MAKE UPDATES TO THIS NOTICE?
+            <br>
+            HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+            <br>
+            HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?
+            <br>
+            WHAT INFORMATION DO WE COLLECT?</h3>
+    </div>
+
+    <script>
+        function OpenSideMenu() {
+            document.getElementById('Side-Menu').style.width = '250px';
+            document.getElementById('Main').style.marginLeft = '250px';
+        }
+        function CloseSideMenu() {
+            document.getElementById('Side-Menu').style.width = "0"
+            document.getElementById('Main').style.marginLeft = "0"
+        }
+    </script>
+</body>
+</html>
